@@ -13,7 +13,7 @@
 
 
 <script type="text/javascript">
-  loadCustomerAjax();
+  loadCustomerJQuery();
 </script>
 
 <%include:footer%>
