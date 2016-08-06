@@ -1,4 +1,5 @@
 
+
 function loadCustomer(customer) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -12,7 +13,7 @@ function loadCustomer(customer) {
 
 
 
-function loadCustomerAjax() {
+function loadCustomerJQuery() {
 
   $("#customer_form").submit(function(e) {
 
@@ -54,7 +55,7 @@ function loadCustomerAjax() {
 				
 						$(".services_name:last").html($(".services_name:last").html() + obj.ar_contracts[key]['ar_services'][serv_key]['title']+' ('+obj.ar_contracts[key]['ar_services'][serv_key]['status']+')'+'<br/>');
 					} else {
-						$(".services_name:last").html($(".services_name:last").html() + 'Сервисы отсутствуют' + '<br/>');
+						$(".services_name:last").html($(".services_name:last").html() + 'РЎРµСЂРІРёСЃС‹ РѕС‚СЃСѓС‚СЃС‚РІСѓСЋС‚' + '<br/>');
 					}
 				}
 
